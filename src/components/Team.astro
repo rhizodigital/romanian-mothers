@@ -1,3 +1,11 @@
+---
+import { Image } from "astro:assets";
+import Irina from "../assets/irina.webp";
+import Alina from "../assets/alina.webp";
+import Melania from "../assets/melania.webp";
+import Bryana from "../assets/bryana.webp";
+---
+
 <div class="bg-gradient-to-br from-pink-200 to-white py-24 sm:py-32">
   <div
     class="mx-auto grid max-w-7xl gap-x-16 gap-y-20 px-6 lg:px-8 xl:grid-cols-3"
@@ -22,11 +30,8 @@
     >
       <li>
         <div class="flex items-center gap-x-6">
-          <img
-            class="h-16 w-16 rounded-full"
-            src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
-            alt=""
-          />
+          <Image src={Irina} class="h-16 w-16 rounded-full" alt="Irina" />
+
           <div>
             <h3 class="text-xl leading-7 tracking-tight text-gray-800">
               Irina Stanean
@@ -40,11 +45,8 @@
 
       <li>
         <div class="flex items-center gap-x-6">
-          <img
-            class="h-16 w-16 rounded-full"
-            src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
-            alt=""
-          />
+          <Image src={Alina} class="h-16 w-16 rounded-full" alt="Alina" />
+
           <div>
             <h3 class="text-xl leading-7 tracking-tight text-gray-800">
               Alina Iordache
@@ -58,11 +60,8 @@
 
       <li>
         <div class="flex items-center gap-x-6">
-          <img
-            class="h-16 w-16 rounded-full"
-            src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
-            alt=""
-          />
+          <Image src={Melania} class="h-16 w-16 rounded-full" alt="Melania" />
+
           <div>
             <h3 class="text-xl leading-7 tracking-tight text-gray-800">
               Melania Culea
@@ -76,11 +75,8 @@
 
       <li>
         <div class="flex items-center gap-x-6">
-          <img
-            class="h-16 w-16 rounded-full"
-            src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
-            alt=""
-          />
+          <Image src={Bryana} class="h-16 w-16 rounded-full" alt="Bryana" />
+
           <div>
             <h3 class="text-xl leading-7 tracking-tight text-gray-800">
               Bryana Amaximoaie
